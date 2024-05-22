@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header.hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        nav h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero-content {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .hero-content h2 {
+            font-size: 48px;
+            margin: 20px 0;
+        }
+
+        .hero-content p {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        .cta-button {
+            background-color: #007BFF;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .features, .about, .contact {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .features h2, .about h2, .contact h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .feature-box {
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <h1>My Company</h1>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h2>Welcome to Our Service</h2>
+            <p>Your success is our priority. Join us today and start your journey.</p>
+            <a href="#signup" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-box">
+            <h3>Feature One</h3>
+            <p>Short description of feature one.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Feature Two</h3>
+            <p>Short description of feature two.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Feature Three</h3>
+            <p>Short description of feature three.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Information about the company, its mission, and values.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us via email or phone.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
